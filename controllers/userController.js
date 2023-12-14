@@ -106,7 +106,7 @@ module.exports.forgot_pass = async function (req, res) {
       service: 'gmail',
       auth: {
         user: 'parthpatthar82@gmail.com', // replace with your Gmail address
-        pass: 'ozeqlfolhpjemwxf', // replace with your Gmail password
+        pass: '', // replace with your Gmail password
       },
     });
 

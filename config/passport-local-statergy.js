@@ -17,7 +17,7 @@ passport.use(
         console.log(await user.comparePassword(password));
         return done(null, user);
       } else {
-        return res.redirect('back');
+        return done(null, false);
       }
     }
   )
